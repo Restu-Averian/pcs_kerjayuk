@@ -1,0 +1,16 @@
+@import "./variable.scss";
+
+.gradient_bg_color {
+  background: $gradient-primary;
+
+  box-shadow: $box-shadow;
+  -webkit-box-shadow: $box-shadow;
+  -moz-box-shadow: $box-shadow;
+
+  color: white !important;
+
+  .placeholder {
+    color: rgba(#ffffff, 0.6) !important;
+    font-size: 13px;
+  }
+}
