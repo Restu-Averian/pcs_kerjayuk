@@ -9,6 +9,7 @@ const Footer = () => {
       bottom={0}
       left={0}
       paddingY={5}
+      zIndex={999}
       bg="white"
       width="100%"
       boxShadow=" 0px 0px 7px 0px rgba(0,0,0,0.75)"
